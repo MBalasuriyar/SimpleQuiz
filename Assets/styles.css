@@ -12,7 +12,7 @@
     background: linear-gradient(0deg, rgba(19,41,61,1) 0%, rgb(34, 53, 138) 63%);
   }
 
-  button {
+  .btn {
     background: skyblue;
     border-radius: 8px;
     color: #13293d;
@@ -53,7 +53,12 @@
     -ms-flex-align: center;
     justify-content: space-around;
   }
-  
+
+  .hide{
+    display:none;
+  }
+
+
 .results {
     width: 30vw;
     height: 400px;
